@@ -1,1 +1,4 @@
-console.log(123);
+import generateJoke from "./generateJoke";
+import "./styles/main.scss";
+
+console.log(generateJoke());
