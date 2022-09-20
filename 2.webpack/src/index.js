@@ -3,6 +3,8 @@ import Heading from "./components/heading/heading.js";
 
 const heading = new Heading();
 heading.render();
+const heading2 = new Heading();
+heading2.render();
 const helloWorldButton = new HelloWorldButton();
 helloWorldButton.render();
 
@@ -11,5 +13,3 @@ if (process.env.NODE_ENV === "production") {
 } else if (process.env.NODE_ENV === "development") {
   console.log("Development mode");
 }
-
-helloWorldButton.methodThatDoesNotExist();

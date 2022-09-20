@@ -10,6 +10,9 @@ module.exports = {
     publicPath: "",
   },
   mode: "development",
+  devServer: {
+    port: 9000,
+  },
   module: {
     rules: [
       {
